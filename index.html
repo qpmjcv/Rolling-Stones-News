@@ -21,8 +21,8 @@
   </head>
 
   <body class="body">
-    <header class="container-fluid color">
-      <div id="carouselimages" class="carousel slide"
+    <header class="container-fluid ">
+      <div id="carouselimages" class="carousel slide "
            data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselimages"
@@ -74,13 +74,14 @@
       </div>
     </header>
 
-    <main>
-      <div class="container-fluid">
-        <div class="row">
-          <section class="col-8">
-            <article class="m-3">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+    <main class="main m-lg-5 m-md-3">
+      <div class="container-fluid  ">
+        <div class="d-flex flex-column flex-sm-row justify-content-around">
+          <section class="col-12 col-sm-8 col-lg-8">
+            <article class="mx-3 my-5 entrada">
+              <div class="card  ">
+                <img src="./assets/tucuman-2.jpeg" class="card-img-top"
+                     alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the
                     card
@@ -88,9 +89,10 @@
                 </div>
               </div>
             </article>
-            <article class="m-3">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+            <article class="mx-3 my-5 entrada">
+              <div class="card ">
+                <img src="./assets/teatro-colon_exterior_001.jpg"
+                     class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the
                     card
@@ -98,9 +100,9 @@
                 </div>
               </div>
             </article>
-            <article class="m-3">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+            <article class="mx-3 my-5 entrada">
+              <div class="card ">
+                <img src="./assets/acuaman.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the
                     card
@@ -109,7 +111,49 @@
               </div>
             </article>
           </section>
+          <aside class="col-12 col-sm-4 col-lg-3">
+            <article class="mx-3 my-5 entrada">
+              <form class="p-3 ">
+                <h5 class="pt-1">Búsqueda de contenido</h5>
+                <div class="mb-1">
+                  <label for="palbraClave" class="form-label"></label>
+                  <input type="text" class="form-control"
+                         id="palbraClave" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Introdusca alguna
+                    palabra o frase</div>
+                </div>
+                <button type="button"
+                        class="btn btn-primary my-3">Buscar</button>
+              </form>
+            </article>
+            <article class="m-3 entrada">
+              <div class="p-3  ">
+                <h5 class="py-1">Búsqueda por categoria</h5>
+                <div class="dropdown my-3">
+                  <button class="btn btn-secondary dropdown-toggle"
+                          type="button"
+                          id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                    Categorias
+                  </button>
+                  <ul class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item"
+                         href="./pages/para-prueba.html">Cine</a></li>
+                    <li><a class="dropdown-item"
+                         href="./pages/para-prueba.html">Cultura</a></li>
+                    <li><a class="dropdown-item"
+                         href="./pages/para-prueba.html">Turismo</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
 
+            <article>
+
+            </article>
+          </aside>
         </div>
       </div>
     </main>
