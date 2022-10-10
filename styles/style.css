@@ -1,0 +1,43 @@
+body {
+  background-color: #fff;
+  padding-top: 100px;
+  font-size: 1rem;
+}
+
+.carousel-item {
+  max-height: 10rem;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 20px #222;
+}
+
+@media only screen and (min-width: 576px) {
+  .carousel-item {
+    max-height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-item {
+    max-height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-item {
+    max-height: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-item {
+    max-height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .carousel-item {
+    max-height: 32rem;
+  }
+}
