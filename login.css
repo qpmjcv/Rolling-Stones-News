@@ -1,0 +1,47 @@
+:root{
+  --color-footer:  #04164e;
+  --color-nv: #04164e;
+}
+
+.navbar{
+  background-color: var(--color-nv);
+  position: fixed;
+  width: 100%;
+}
+
+p{
+color: white;
+}
+
+.img-log{
+    height: 22px;
+}
+
+.espacio {
+  background-color: #ffff;
+  height: 42vh;
+
+}
+
+.main{
+  padding: 10px 5px 15px 5px;
+  height: auto;
+  width: 80%;
+  background-color: var(--color-main);
+}
+  .box-container{
+    display: flex;
+  }
+
+  
+  footer{
+    background-color: var(--color-footer);
+  }
+  
+  .img-footer{
+      height: 50px;
+      border-radius: 25px;
+      margin: 0px 30px 0px 30px ;
+      box-shadow: black 3px 5px 10px 0px;
+      
+  }
