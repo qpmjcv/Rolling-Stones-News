@@ -2,6 +2,7 @@ body {
   background-color: var(--color-bg-body);
   padding-top: 100px;
   font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root{
@@ -9,6 +10,51 @@ body {
   --color-nv: #04164e;
   --color-bg-body: #e7dfdd;
   --color-dropdown: #0e0b16;
+  --color-card: #040517;
+}
+
+.sidebar{
+  background-color: #eae36e;
+  height: auto;
+  width: 25%;
+}
+
+.main{
+/*display: flex;
+flex-direction: column;
+flex: 0 0 auto;*/
+padding: 10px 5px 15px 5px;
+height: auto;
+width: 75%;
+background-color: var(--color-main);
+}
+
+
+aside{
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-end;*/
+  height: auto;
+  width: 100%;
+  background-color: var(--color-main);
+}
+
+.sidebar-container{
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;*/
+  width:100%;
+  height: auto;
+  background-color: var(--color-sidebar);
+  text-align: center;
+  padding: 5px;
+}
+
+#sidebarimg{
+  
+  width: 90%;
+  margin: 10px;
+  border-radius: 8px;
 }
 
 /* .dd{
@@ -64,7 +110,9 @@ p {
     transition: 1s;
 }
 
-
+.card-color{
+  background-color: var(--color-card);
+}
 
 
 .img-log{
@@ -95,6 +143,8 @@ h4{
 
 }
 
+
+
 .main{
   padding: 10px 5px 15px 5px;
   height: auto;
@@ -105,7 +155,10 @@ h4{
     display: flex;
   }
 
- 
+ .img-card{
+  object-fit: contain;
+  width: 270px;
+ }
 
   footer{
     background-color: var(--color-footer);
