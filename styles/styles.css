@@ -17,6 +17,10 @@ body {
   text-decoration: white;
 } */
 
+p {
+  color: #fafafa;
+}
+
 .navbar{
   background-color: var(--color-nv);
   position: fixed;
@@ -32,13 +36,17 @@ body {
   width: 85px;
 }
 
+#serpentinas{
+  filter: opacity(0.5);
+}
+
 .paralax{
   width: 100%;
   background-image: url(/assets/img/aboutUs/Logo1_jpeg.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
   background-position: center;
-  background-attachment: fixed;
+  
 }
 
 .cardAu{
@@ -56,9 +64,7 @@ body {
     transition: 1s;
 }
 
-p{
-color: white;
-}
+
 
 
 .img-log{
@@ -66,7 +72,7 @@ color: white;
 }
 
 .espacio {
-  background-color: #ffff;
+  
   height: 42vh;
 }
 
