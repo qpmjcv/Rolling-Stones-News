@@ -32,6 +32,30 @@ body {
   width: 85px;
 }
 
+.paralax{
+  width: 100%;
+  background-image: url(/assets/img/aboutUs/Logo1_jpeg.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cardAu{
+  filter: brightness(15%);
+}
+
+.img-aboutUs{
+
+  z-index: 10;
+  width: 100%;
+ }
+
+.card:hover{
+    filter: brightness(100%);
+    transition: 1s;
+}
+
 p{
 color: white;
 }
