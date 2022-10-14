@@ -1,16 +1,32 @@
-body {
-  background-color: var(--color-bg-body);
-  padding-top: 100px;
-  font-size: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 :root {
   --color-footer: #04164e;
   --color-nv: #04164e;
   --color-bg-body: #e7dfdd;
   --color-dropdown: #0e0b16;
   --color-card: #040517;
+}
+body {
+  background-color: var(--color-bg-body);
+  padding-top: 100px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Main*/
+
+.navbar {
+  background-color: var(--color-nv);
+  position: fixed;
+  width: 100%;
+}
+
+ .main {
+   /*display: flex;
+flex-direction: column;
+flex: 0 0 auto;*/
+padding: 10px 5px 15px 5px;
+height: auto;
+width: 75%;
+background-color: var(--color-bg-body);
 }
 
 .sidebar {
@@ -19,13 +35,12 @@ body {
   width: 25%;
 }
 
-.main {
+aside {
   /*display: flex;
-flex-direction: column;
-flex: 0 0 auto;*/
-  padding: 10px 5px 15px 5px;
+  flex-direction: column;
+  align-items: flex-end;*/
   height: auto;
-  width: 75%;
+  width: 100%;
   background-color: var(--color-main);
 }
 
@@ -41,14 +56,6 @@ picture div img:hover {
   z-index: 100;
 }
 
-aside {
-  /*display: flex;
-  flex-direction: column;
-  align-items: flex-end;*/
-  height: auto;
-  width: 100%;
-  background-color: var(--color-main);
-}
 
 .sidebar-container {
   /*display: flex;
@@ -76,11 +83,6 @@ aside {
 
 
 
-.navbar {
-  background-color: var(--color-nv);
-  position: fixed;
-  width: 100%;
-}
 
 .logo-img {
   height: 75px;
@@ -99,9 +101,11 @@ aside {
   width: 100%;
   background-image: url(/assets/img/aboutUs/Logo1_jpeg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-size: contain;
   background-position: center;
-
 }
 
 .cardAu {
@@ -153,14 +157,6 @@ h4 {
 }
 
 
-
-.main {
-  padding: 10px 5px 15px 5px;
-  height: auto;
-  width: 80%;
-  background-color: var(--color-main);
-}
-
 .box-container {
   display: flex;
 }
@@ -202,6 +198,10 @@ a:hover {
 .box-shadow {
   box-shadow: 10px 10px 20px #222;
 }
+
+/*Seccion deportes*/
+
+
 
 @media only screen and (min-width: 576px) {
   .carousel-item {
