@@ -90,8 +90,9 @@ p {
   width: 100%;
   background-image: url(/assets/img/aboutUs/Logo1_jpeg.jpg);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   
 }
 
