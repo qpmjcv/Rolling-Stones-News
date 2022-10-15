@@ -64,7 +64,7 @@ aside {
 .gallery-img:hover {
   transform: scale(1.2);
   transform-origin: center;
-  z-index: 100;
+  z-index: 200;
 }
 
 
