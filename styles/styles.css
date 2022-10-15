@@ -55,13 +55,13 @@ aside {
 
 
 
-picture div img {
+.gallery-img {
   border: none;
   cursor: pointer;
   transition: .3s;
 }
 
-picture div img:hover {
+.gallery-img:hover {
   transform: scale(1.2);
   transform-origin: center;
   z-index: 100;
