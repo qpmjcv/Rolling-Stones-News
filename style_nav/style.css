@@ -1,7 +1,7 @@
-.li-on-off{
+.li-navbar{
   display: none;
 }
-.butt-on-off{
+.button-sub-log{
   display: none;
 }
 .color-bg{
@@ -13,7 +13,7 @@
 .tx-color{
   color: #4717F6;
 }
-.icono-mas:hover{
+.li-desplegable:hover{
   border-radius: 100px;
   background-color: #4717F6;
   color: white;
@@ -36,7 +36,7 @@
   padding: 4px 16px;
 }
 @media screen and (min-width:768px) {
-  .icono-mas{
+  .li-desplegable{
     display: none;
   }
   .icono-custom{
@@ -45,7 +45,7 @@
   .icon-person{
     display: none;
   }
-  .li-on-off{
+  .li-navbar{
     display: flex;
     order: 1;
   }
@@ -53,7 +53,7 @@
    transition: all 1s ease;
    background-color:  #4717F6;
   }
-  .butt-on-off{
+  .button-sub-log{
     display: block;
     order: 2;
   }
