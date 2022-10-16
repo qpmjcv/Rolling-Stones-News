@@ -1,0 +1,245 @@
+:root {
+  --color-footer: #04164e;
+  --color-nv: #04164e;
+  --color-bg-body: #e7dfdd;
+  --color-dropdown: #0e0b16;
+  --color-card: #040517;
+  --color-sidebar: #040a2e;
+  --color-sb-news: #0a2680;
+  --color-sb-text: #aab0f9;
+}
+
+
+
+body {
+  background-color: var(--color-bg-body);
+  padding-top: 100px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/*Main*/
+
+.navbar {
+  background-color: var(--color-nv);
+  position: fixed;
+  width: 100%;
+}
+
+.main {
+  /*display: flex;
+flex-direction: column;
+flex: 0 0 auto;*/
+  padding: 10px 5px 15px 5px;
+  height: auto;
+  width: 70%;
+  background-color: var(--color-bg-body);
+}
+
+.sidebar {
+  background-color: var(--color-sidebar);
+  color: var(--color-sb-text);
+  height: auto;
+  width: 29%;
+}
+
+aside {
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-end;*/
+  height: auto;
+  width: 100%;
+  background-color: var(--color-main);
+}
+
+
+
+.gallery-img {
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+  z-index: 200;
+}
+
+
+.sidebar-container {
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;*/
+  width: 100%;
+  height: auto;
+  background-color: var(--color-sb-news);
+  text-align: center;
+  padding: 5px;
+}
+
+#sidebarimg {
+
+  width: 90%;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* .dd{
+  background-color: var(--color-nv);
+  color: #fafafa;
+  text-decoration: white;
+} */
+
+
+
+
+.logo-img {
+  height: 75px;
+}
+
+#logo-nav {
+  height: 75px;
+  width: 85px;
+}
+
+#serpentinas {
+  filter: opacity(0.5);
+}
+
+.paralax {
+  width: 100%;
+  background-image: url(/assets/img/aboutUs/Logo1_jpeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+}
+
+.cardAu {
+  filter: brightness(15%);
+}
+
+.img-aboutUs {
+
+  z-index: 10;
+  width: 100%;
+}
+
+.card:hover {
+  filter: brightness(100%);
+  transition: 1s;
+}
+
+.card-color {
+  background-color: var(--color-card);
+}
+
+
+.img-log {
+  height: 22px;
+}
+
+.espacio {
+
+  height: 42vh;
+}
+
+.espacio1 {
+  height: 9vh;
+
+}
+
+h3 {
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+h4 {
+  background-color: var(--color-bg-h4);
+  color: var(--color-h4);
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+
+}
+
+
+.box-container {
+  display: flex;
+}
+
+.img-card {
+  object-fit: contain;
+  width: 270px;
+}
+
+footer {
+  background-color: var(--color-footer);
+}
+
+.img-footer {
+  height: 80px;
+  border-radius: 100%;
+  margin: 0px 30px 0px 30px;
+  box-shadow: black 3px 5px 10px 0px;
+
+}
+
+.bi {
+  font-size: 3em;
+}
+
+#img-footer {
+  height: 60px;
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+
+.carousel-item {
+  max-height: 10rem;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 20px #222;
+}
+
+/*Seccion deportes*/
+
+
+
+@media only screen and (min-width: 576px) {
+  .carousel-item {
+    max-height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-item {
+    max-height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-item {
+    max-height: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-item {
+    max-height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .carousel-item {
+    max-height: 32rem;
+  }
+}
