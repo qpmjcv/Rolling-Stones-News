@@ -28,9 +28,7 @@ body {
 }
 
 .main {
-  /*display: flex;
-flex-direction: column;
-flex: 0 0 auto;*/
+
   padding: 10px 5px 15px 5px;
   height: auto;
   width: 70%;
