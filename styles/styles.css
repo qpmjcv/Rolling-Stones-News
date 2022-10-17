@@ -208,8 +208,8 @@ a:hover {
   box-shadow: 10px 10px 20px #222;
 }
 
-/*Seccion deportes*/
-/* deportes */
+
+
 .img-stadio {
   max-width: 100%;
   height: auto;
@@ -239,9 +239,6 @@ p .hora {
   font-size: 13px;
 
 }
-
-/* fin deportes */
-
 
 
 @media only screen and (min-width: 576px) {
