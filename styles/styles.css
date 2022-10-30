@@ -9,8 +9,6 @@
   --color-sb-text: #aab0f9;
 }
 
-
-
 body {
   background-color: var(--color-bg-body);
   padding-top: 100px;
@@ -18,8 +16,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
 }
-
-/*Main*/
 
 .navbar {
   background-color: var(--color-nv);
@@ -42,15 +38,10 @@ body {
 }
 
 aside {
-  /*display: flex;
-  flex-direction: column;
-  align-items: flex-end;*/
   height: auto;
   width: 100%;
   background-color: var(--color-main);
 }
-
-
 
 .gallery-img {
   border: none;
@@ -64,11 +55,7 @@ aside {
   z-index: 200;
 }
 
-
 .sidebar-container {
-  /*display: flex;
-  flex-direction: column;
-  flex-wrap:wrap;*/
   width: 100%;
   height: auto;
   background-color: var(--color-sb-news);
@@ -82,15 +69,6 @@ aside {
   margin: 10px;
   border-radius: 8px;
 }
-
-/* .dd{
-  background-color: var(--color-nv);
-  color: #fafafa;
-  text-decoration: white;
-} */
-
-
-
 
 .logo-img {
   height: 75px;
@@ -135,20 +113,16 @@ aside {
   background-color: var(--color-card);
 
 }
-
-
 .img-log {
   height: 22px;
 }
 
 .espacio {
-
   height: 42vh;
 }
 
 .espacio1 {
   height: 9vh;
-
 }
 
 h3 {
@@ -162,9 +136,7 @@ h4 {
   font-weight: bold;
   text-align: center;
   width: auto;
-
 }
-
 
 .box-container {
   display: flex;
@@ -184,7 +156,6 @@ footer {
   border-radius: 100%;
   margin: 0px 30px 0px 30px;
   box-shadow: black 3px 5px 10px 0px;
-
 }
 
 .bi {
@@ -199,7 +170,6 @@ a:hover {
   color: #FF0000;
 }
 
-
 .carousel-item {
   max-height: 10rem;
 }
@@ -207,8 +177,6 @@ a:hover {
 .box-shadow {
   box-shadow: 10px 10px 20px #222;
 }
-
-
 
 .img-stadio {
   max-width: 100%;
@@ -237,9 +205,7 @@ form button.coment:hover {
 
 p .hora {
   font-size: 13px;
-
 }
-
 
 @media only screen and (min-width: 576px) {
   .carousel-item {
@@ -257,7 +223,6 @@ p .hora {
   .carousel-item {
     max-height: 25rem;
   }
-
   .m {
     font-size: 1.2rem;
   }
@@ -267,7 +232,6 @@ p .hora {
   .carousel-item {
     max-height: 30rem;
   }
-
   .m {
     font-size: 2rem;
   }
