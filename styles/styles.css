@@ -94,9 +94,6 @@ aside {
   background-position: center;
 }
 
-.cardAu {
-  filter: brightness(15%);
-}
 
 .img-aboutUs {
 
@@ -104,10 +101,7 @@ aside {
   width: 100%;
 }
 
-.card:hover {
-  filter: brightness(100%);
-  transition: 1s;
-}
+
 
 .card-color {
   background-color: var(--color-card);
@@ -191,6 +185,8 @@ form.area {
   border: 1px solid #4b65d1;
 }
 
+
+
 form button.coment {
   background-color: #4b65d1;
 }
@@ -207,6 +203,12 @@ p .hora {
   font-size: 13px;
 }
 
+.card:hover {
+  filter: brightness(100%);
+  transition: 1s;
+}
+
+
 @media only screen and (min-width: 576px) {
   .carousel-item {
     max-height: 15rem;
@@ -219,12 +221,17 @@ p .hora {
   }
 }
 
+
+
 @media only screen and (min-width: 992px) {
   .carousel-item {
     max-height: 25rem;
   }
   .m {
     font-size: 1.2rem;
+  }
+  .cardAu {
+    filter: brightness(15%);
   }
 }
 
