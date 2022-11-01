@@ -84,31 +84,26 @@
       </nav>
     </header>
     <main>
-        
       <div class="container flex-column">
         <div class="row my-2">
-          <div class="col">
-            <form class="mt-5" action="submit">
-              <ul>
-                <h3>Por consultas, duda o sugerencias, comunicate con nuestros expertos.</h3>
-                <div class="mb-2">
-                  <label for="correo">Correo</label>
-                  <input type="email" name="correo" id="correo" placeholder="example@example.com" required>
-                </div>
-                <div class="mb-2">
-                  <label for="correo">Asunto</label>
-                  <input type="text" name="texto" id="correo" required>
-                </div>
-                <div>
-                  <textarea placeholder=" Deje su consulta.." name="message" id="text-area" cols="40" rows="6" required maxlength="250"></textarea>
-                </div>
-                <div class="mb-5">  
-                  <a class="btn btn-primary" role="button" href="./error.html">Enviar</a>  
-               </div>  
-              </ul>
-            </form>        
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 my-3">
+            <h3>Por consultas, duda o sugerencias, comunicate con nuestros expertos.</h3>
+            <form class="my-3">
+              <div class="form-group my-3">
+                <label for="exampleFormControlInput1">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="qpmjcv2004@hotmail.com">
+              </div>
+             <div class="form-group">
+                <label for="correo">Asunto</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+              <div class="my-3 d-flex justify-content-end">  
+                <a class="btn btn-primary" role="button" href="./error.html">Enviar</a>  
+             </div>  
+            </form>
+          <img class="img-fluid" src="/assets/img/contact/rolling-stones.jpg" alt="Rolling Stones">
           </div>
-          <div class="col px-4 mb-5">       
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 px-4 mb-5">       
             <div class="col">
               <p class="text-center fw-bold text-dark">Encontranos en:</p>
               <p class="text-center fw-bold text-dark">West Bay Road Grand Cayman, KY1-1204, Islas Caimán.</p>
@@ -121,55 +116,47 @@
       </div>
 
     </main>
-    <Footer>
+    <footer>
       <div class="col text-center">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 mt-3">
-            <a href="/index.html"><img
-                   src="/assets/img/icons/Logo2_Version_redonda_png.png"
-                   alt="Logo" class="img-footer my-2"></a>
+            <a href="/index.html">
+              <img src="/assets/img/icons/Logo2_Version_redonda_png.png" alt="Logo" class="img-footer my-2">
+            </a>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mt-3">
             <p class="text-white">Siguinos en nuestras redes</p>
-            <a href="https://www.facebook.com/"><i
-                 class="bi bi-facebook mx-3 "></i></a>
-            <a href="https://www.instagram.com/"><i
-                 class="bi bi-instagram mx-3"></i></a>
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook mx-3 "></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram mx-3"></i></a>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-3">
+          <div class="col-12 col-md-6 col-lg-4 mt-3 gap-2 ">
             <a href="/pages/contact.html">
               <h5 class="title my-3">Contacto</h5>
             </a>
-            <a href="/pages/error.html">Aviso Legal</a><br>
-            <a href="/pages/error.html">Política de Cookies</a> <br>
+            <a href="/pages/error.html">Aviso Legal</a>
+            <a href="/pages/error.html">Política de Cookies</a>
             <a href="/pages/error.html">Política de privacidad</a>
             <p class="text-white">&copy; Todos los derechos reservados 2022.</p>
           </div>
         </div>
       </div>
-    </Footer>
+    </footer>
     <div class="modal fade" id="Modalsuscribirse" tabindex="-1"
          aria-labelledby="Modalsuscribirselabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header bg-dark text-white">
-            <div class="modal-title" id="Modalsuscribirselabel">Suscribirse al
-              Blog </div>
-            <button type="button" class="btn-close btn-danger"
-                    data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-title" id="Modalsuscribirselabel">Suscribirse al Blog </div>
+            <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body bg-dark">
             <p class="text-white">Enterate de las ultimas novedades</p>
             <div class="form-check">
-
-              <label class="text-white" for="mail ">Ingresa tu correo
-                electrónico</label><br>
-              <input type="text" name="mail" class="required" id="mail"
-                     required>
+              <label class="text-white d-flex flex-wrap" for="mail ">Ingresa tu correo electrónico</label>
+              <input type="text" name="mail" class="required my-3" id="mail" required>
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value=""
-                     id="flexCheckChecked" checked>
+            <div class="form-group">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
               <label class="form-check-label text-white" for="flexCheckChecked">
                 Recibir Notificaciones en mi mail.
               </label>
